@@ -1,0 +1,24 @@
+/***************************************
+ * Copyright 2020 KIYA
+ * SCSS Root Module
+ *
+ * Author: KIYA Team
+ ***************************************/
+
+
+// Core SCSS
+@import "theme/mixins/buttons";
+@import "theme/mixins/typography";
+@import "theme/mixins/common";
+@import "theme/mixins/media";
+
+//Navbar SCSS
+@import "theme/mixins/navbar";
+
+
+// components
+/*@import "theme/navbar";*/
+@import "theme/pages/home";
+@import "theme/pages/about";
+@import "theme/pages/projects";
+@import "theme/pages/contact";

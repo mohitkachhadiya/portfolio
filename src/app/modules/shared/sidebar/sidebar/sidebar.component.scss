@@ -1,0 +1,12 @@
+.vlt-fixed-socials {
+    top: 80px;
+    bottom: 50px;
+}
+
+.vlt-fixed-socials::after, .vlt-fixed-socials::before {
+	width: 1px;
+    height: 100%;
+    margin: 0 auto;
+    content: '';
+    background-color: rgba(255,255,255,.4);
+}

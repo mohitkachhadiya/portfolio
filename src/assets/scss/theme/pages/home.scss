@@ -1,0 +1,37 @@
+.home-bg-img {
+	position: relative;    
+    width: 100%;
+    height: 100%;   
+}
+.home-bg-img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;   
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    background-size: cover;
+}
+.main-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;   
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 100%;
+    max-height: 100%;   
+}
+.router-content {
+    width: 100%;
+    height: 100%;
+}
+.footer-content {
+    bottom: 0; 
+    left: 25px;
+}
